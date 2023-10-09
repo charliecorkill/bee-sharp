@@ -1,0 +1,164 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: "Inter var", sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    background-color: white;
+    color: black;
+	line-height: 1;
+    height: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+nav {
+    background-color: #FFE66D;
+    width: 100%;
+    box-shadow: 0px 0px 10px #FFE66D;
+
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav b {
+    float: left;
+    font-size: 1.75rem;
+    font-weight: bold;
+    padding: 5px;
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul #active a {
+    background-color: rgb(0, 0, 100);
+    color: white;
+}
+
+#emoji {
+    font-size: 3.5rem;
+}
+
+#title {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#text {
+    font-size: 1rem;
+}
+
+.inputBox {
+    display: block;
+    background-color: white;
+    box-shadow: 0px 0px 100px #e5e7eb;
+    width: 570px;
+    line-height: 50px;
+    color: black;
+    padding: 2%;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 27.5%; margin-left: 50%; transform: translate(-50%, -50%)
+}
+
+hr {
+    width: 70px;
+    background-color: white;
+    border: none;
+    height: 2px;
+}
+
+.inputBox #email {
+    width: 45%;
+    height: 25px;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    border-bottom: 2px solid #FFE66D;
+    transition-duration: 1s;
+}
+
+.inputBox #submit {
+    width: 10%;
+    max-width: 20%;
+    height: 25px;
+    font-size: 1rem;
+    background-image: linear-gradient(to bottom right, #5497A7, #F05D5E);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.inputBox #submit:hover {
+    width: 10%;
+    background-image: linear-gradient(to top left, #5497A7, #F05D5E);
+    color: white;
+}
+
+.inputBox #email:focus {
+    border-bottom: 2px solid white;
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: #FFE66D;
+    box-shadow: 0px 0px 10px #FFE66D;
+}
+
+.footer p {
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    bottom: 0%;
+    padding: 20px;
+}
